@@ -118,6 +118,7 @@ void loop() {
     }
   }
 
+/*
   bt.print(" / Horas: "); //IMPRIME O TEXTO NA SERIAL
   bt.print(now.hour(), DEC); //IMPRIME NO MONITOR SERIAL A HORA
   bt.print(':'); //IMPRIME O CARACTERE NO MONITOR SERIAL
@@ -126,6 +127,7 @@ void loop() {
   bt.print(now.second(), DEC); //IMPRIME NO MONITOR SERIAL OS SEGUNDOS
   bt.println(); //QUEBRA DE LINHA NA SERIAL
   digitalWrite(4, status);
+*/
   delay(1000);
 }
 
